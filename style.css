@@ -1,0 +1,355 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background: #22C1C3;
+  background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(184, 57, 230, 0.24) 100%);
+}
+ul {
+  
+  list-style: none;
+  gap: 10px;
+} 
+.ul1{
+  display: flex;
+}
+.menus,
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.sec1 {
+  background-image: url(.\images\dog-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #22C1C3;
+  background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(184, 57, 230, 0.24) 100%);
+}
+
+.dog-img1 {
+  width: 300px;
+}
+
+.logo {
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+.sec11Text1 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+span {
+  color: rgb(13, 185, 201);
+}
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 10px;
+  width: 125px;
+  color: var(--bg-button-color);
+  border-style: solid;
+  border-width: 1px;
+  border-color: hwb(328 24% 23%);
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 1px 2px pink;
+}
+.btn:hover {
+  background-color: rgb(231, 67, 151);
+}
+
+.sec11buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.2rem;
+  border-radius: 20px;
+}
+
+.sec2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  border-style: groove;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px -5px;
+}
+.sec2 > div > img {
+  width: 100px;
+  height: 75px;
+}
+
+.sec3 {
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sec3 img{
+  height: 400px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.sec3 h2 {
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.sec3Text {
+  text-align: center;
+}
+
+.sec4 {
+  padding: 20px ;
+  gap: 10px;
+}
+
+.sec4Content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+.sec4Img {
+  padding: 10px 20px;
+}
+.sec4Img>img {
+  height: 350px;
+ border-style: groove;
+ border-radius: 20px;
+ border-color: rgb(198, 224, 248);
+}
+
+.sec4Text {
+  margin-bottom: 10px;
+}
+
+.sec5 {
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+.sec5Img>img {
+  height: 275px;
+}
+.sec5Content {
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+  border-style: groove;
+  border-color: deeppink;
+  border-radius: 20px;
+  height: 200px;
+  background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(234, 0, 255, 0.15) 0%);
+  
+  
+}
+.btn2 {
+  border-radius: 20px;
+  border-color: aqua;
+}
+
+.manDog {
+  border-style: hidden;
+  border-radius: 250px;
+  height: 250px;
+  width: 275px;
+  
+}
+.sec6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 10px;
+  border-top-style: ridge;
+  border-top-color: red;
+  box-shadow: 0 50 50 1px;
+  border-radius: 20px;
+  
+}
+.sec7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: centre;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(24, 64, 222, 0.24) 0%);
+}
+.sec71{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.icon{
+  width: 25px;
+}
+.sec72{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sec72Card{
+  border: 1px solid deeppink;
+  display: flex;
+  width: 150px;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: centre;
+  justify-content: space-between;
+  text-align: center;
+}
+
+footer{
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Desktop View */
+@media (min-width: 600px) {
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+
+  .ul1 {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .sec1 {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+    padding: 40px;
+  }
+
+  .dog-img1 {
+    width: 450px;
+  }
+
+  .sec11Text1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .sec2 {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sec2 > div {
+    width: 30%;
+  }
+
+  .sec3 {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .sec3 img {
+    height: 500px;
+  }
+
+  .sec4Content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sec4Img > img {
+    height: 400px;
+  }
+  .sec5 {
+    flex-direction: row;
+  }
+
+  .sec5Content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sec5Img > img {
+    height: 350px;
+  }
+
+  .sec611 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
+  .sec71 {
+    text-align: center;
+  }
+
+  .sec72 {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sec72Card {
+    width: 200px;
+  }
+
+  .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 60px;
+  }
+}
+
