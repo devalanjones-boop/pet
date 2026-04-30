@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -254,7 +254,7 @@ footer{
 }
 
 /* Desktop View */
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
 
   .navbar {
     flex-direction: row;
@@ -352,4 +352,364 @@ footer{
     padding: 30px 60px;
   }
 }
+ */ 
 
+
+/* RESET */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  margin: 10px;
+  /* padding: 20px; */
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(192, 103, 237, 0.692) 0%, rgba(123, 248, 255, 0.452) 100%);
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.ul1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.menus,
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.sec1 {
+  background: linear-gradient(90deg, rgba(192, 103, 237, 0.692) 0%, rgba(123, 248, 255, 0.434) 100%);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.dog-img1 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.sec11Text1 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: clamp(22px, 5vw, 40px);
+  line-height: 1.4;
+  font-weight: bold;
+}
+.sec11Text2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.text {
+  margin: 0%;
+  
+}
+
+span {
+  color: rgb(13, 185, 201);
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 15px;
+  min-width: 120px;
+  border: 1px solid hwb(328 24% 23%);
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 1px 2px pink;
+}
+
+.btn:hover {
+  background-color: rgb(231, 67, 151);
+  color: white;
+}
+
+.sec11buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* SECTION 2 */
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  /* border-color: linear-gradient(90deg, rgba(192, 103, 237, 0.692) 0%, rgba(123, 248, 255, 0.434) 100%); */
+}
+
+.sec2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  border-style: groove;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px -5px;
+}
+
+.sec2 img {
+  width: 80px;
+  height: auto;
+}
+
+/* SECTION 3 */
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sec3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sec3 h2 {
+  font-size: clamp(24px, 5vw, 40px);
+}
+
+.sec3Text {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* SECTION 4 */
+.sec4 {
+  padding: 20px;
+  
+}
+.sec4Heading{
+  margin-bottom: 10px;
+}
+
+.sec4Content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+}
+
+.sec4Img img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid lightblue;
+}
+
+.sec4Text button {
+  margin-top: 20px;
+}
+/* SECTION 5 */
+.sec5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.sec5Content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid deeppink;
+  background: linear-gradient(90deg, rgba(192, 103, 237, 0.692) 0%, rgba(123, 248, 255, 0.434) 100%);
+}
+
+.sec5Img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.manDog {
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.btn2 {
+  border-radius: 10px;
+  width: 75px;
+  height: 25px;
+  cursor: pointer;
+  border-color: aquamarine;
+}
+.btn2:hover{
+  background-color: aquamarine;
+}
+
+/* SECTION 6 */
+.sec6 {
+  margin: 25px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border-top: 10px solid rgba(228, 13, 70, 0.379);   /* first layer */
+  box-shadow: 0 -10px 0 rgba(0, 132, 255, 0.495);   /* second layer above it */
+  border-bottom-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+  
+}
+
+
+/* SECTION 7 */
+.sec7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(192, 103, 237, 0.692) 0%, rgba(123, 248, 255, 0.434) 100%);
+}
+
+.sec71 {
+  text-align: center;
+}
+
+.sec72 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icon {
+  width: 25px;
+}
+
+.sec72Card {
+  border: 1px solid deeppink;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* GLOBAL IMAGE FIX */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 768px) {
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+
+  .sec1 {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .sec11buttons {
+    justify-content: start;
+  }
+
+  .sec2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sec2 > div {
+    flex: 1 1 250px;
+  }
+
+  .sec3 {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .sec4Content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sec5 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sec5Content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sec611 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sec72 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .foot {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
